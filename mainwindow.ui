@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>operator</string>
+    </property>
+    <addaction name="actionSelectionSort"/>
+    <addaction name="actionInsertionSort"/>
+    <addaction name="actionBubleSort"/>
+    <addaction name="actionShellSort"/>
+    <addaction name="actionMergeSort"/>
+    <addaction name="actionHeapSort"/>
+    <addaction name="actionQuickSort"/>
+    <addaction name="actionStop"/>
+   </widget>
+   <widget class="QMenu" name="menuSet">
+    <property name="title">
+     <string>set</string>
+    </property>
+    <addaction name="actionSize"/>
+    <addaction name="actionSlowdown"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menuSet"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionInsertionSort">
+   <property name="text">
+    <string>InsertionSort</string>
+   </property>
+  </action>
+  <action name="actionSize">
+   <property name="text">
+    <string>size</string>
+   </property>
+  </action>
+  <action name="actionSlowdown">
+   <property name="text">
+    <string>slowdown</string>
+   </property>
+  </action>
+  <action name="actionStop">
+   <property name="text">
+    <string>stop</string>
+   </property>
+  </action>
+  <action name="actionSelectionSort">
+   <property name="text">
+    <string>SelectionSort</string>
+   </property>
+  </action>
+  <action name="actionMergeSort">
+   <property name="text">
+    <string>MergeSort</string>
+   </property>
+  </action>
+  <action name="actionBubleSort">
+   <property name="text">
+    <string>BubleSort</string>
+   </property>
+  </action>
+  <action name="actionShellSort">
+   <property name="text">
+    <string>ShellSort</string>
+   </property>
+  </action>
+  <action name="actionHeapSort">
+   <property name="text">
+    <string>HeapSort</string>
+   </property>
+  </action>
+  <action name="actionQuickSort">
+   <property name="text">
+    <string>QuickSort</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
